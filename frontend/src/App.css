@@ -26,3 +26,19 @@ button {
 #slogan {
   margin: 0;
 }
+
+.container {
+  background-color: white;
+  padding: 1rem;
+  margin: 2rem;
+  color: grey;
+}
+
+#calendar {
+  background-color: white;
+}
+
+#admin {
+  background-color: white;
+  padding-bottom: 1rem;
+}
