@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import detectEthereumProvider from '@metamask/detect-provider';
 
-import Calendar from './Components/calendar'
+import Calendar from './Components/Calendar'
 
 import './App.css';
 
@@ -48,7 +48,7 @@ function App() {
         <h1>Calendly</h1>
         <div id="slogan">Web 3 scheduling</div>
         {!account && <button onClick={connect}>connect wallet</button>}
-        {account && <Calendar />}
+        {account && <Calendar account={account}/>}
       </header>
     </div>
   );
